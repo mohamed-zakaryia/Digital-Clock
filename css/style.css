@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.parent {
+  background-color: #272626;
+  border-radius: 5px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.day {
+  font-size: 16px;
+  padding: 5px;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.clock ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
